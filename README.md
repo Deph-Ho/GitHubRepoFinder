@@ -1,7 +1,8 @@
 # GitHubRepoFinder
 Search for popular git hub repositories
 
-Part 1: Set up GitHub repos in view
+Part 1: Set up GitHub repos in view 
+
 Part 2: Save minimum stars to show in search settings
 
 ## Video Walkthrough 
