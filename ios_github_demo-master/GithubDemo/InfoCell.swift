@@ -26,8 +26,8 @@ class InfoCell: UITableViewCell {
             descriptionLabel.text = infoData.repoDescription
             let urlString = infoData.ownerAvatarURL
             let url = URL(string: urlString!)
-            forkCountLabel.text = "\(infoData.forks)"
-            starCountLabel.text = "\(infoData.stars)"
+            forkCountLabel.text = "\(infoData.forks!)"
+            starCountLabel.text = "\(infoData.stars!)"
             avatarImageView.setImageWith(url!)
         }
     }
